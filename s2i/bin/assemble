@@ -16,6 +16,7 @@ fi
 echo "---> Building application from source..."
 cat /tmp/src/a.sh >> /tmp/src/myweb
 chmod +x /tmp/src/myweb
+echo "Demo of S2I" > /tmp/src/index.html
 
 echo "---> Installing application source..."
 #cp -Rvf /tmp/src/. /usr/sbin/
