@@ -33,7 +33,7 @@ RUN chown -R 1001:1001 /opt/app-root
 USER 1001
 
 # TODO: Set the default port for applications built using this image
-# EXPOSE 8080
+EXPOSE 3030
 
 # TODO: Set the default CMD for the image
 # CMD ["usage"]
